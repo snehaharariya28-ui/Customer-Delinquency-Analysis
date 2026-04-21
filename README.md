@@ -26,3 +26,11 @@ Analyze customer data to identify factors influencing delinquency.
 
 ## Conclusion
 Customer delinquency depends on multiple factors rather than a single variable.
+
+## How to Run
+
+1. Install required libraries:
+pip install -r requirements.txt
+
+2. Run the script:
+python analysis.py
