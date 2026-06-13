@@ -33,4 +33,4 @@ Customer delinquency depends on multiple factors rather than a single variable.
 pip install -r requirements.txt
 
 2. Run the script:
-python analysis.py
+analysis.py
