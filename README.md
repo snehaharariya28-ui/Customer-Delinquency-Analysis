@@ -1,94 +1,171 @@
 # Customer Delinquency Analysis
 
-## Overview
+An Exploratory Data Analysis (EDA) project focused on identifying customer delinquency patterns and financial risk indicators using Python.
 
-This project analyzes customer delinquency using Exploratory Data Analysis (EDA) to identify factors associated with missed loan payments and financial risk.
+This project was completed as part of the **Tata iQ GenAI Powered Data Analytics Job Simulation** on **Forage**, where the objective was to analyze customer financial data and derive business insights to support delinquency risk prediction.
 
-The analysis was completed as part of the **Tata iQ GenAI Powered Data Analytics Job Simulation** hosted on **Forage**, where the objective was to explore customer financial data and generate business insights for delinquency risk assessment.
+---
+
+## Project Overview
+
+Customer delinquency is a major challenge for financial institutions. This project explores customer demographics, credit behavior, loan information, and repayment history to identify factors associated with delinquency.
+
+The analysis focuses on understanding customer behavior, handling missing data, engineering useful features, and generating insights that can support future predictive models for credit risk assessment.
 
 ---
 
 ## Dataset
 
-The dataset was provided as part of the Tata iQ GenAI Powered Data Analytics Job Simulation on Forage. It contains anonymized customer financial information, including demographic details, credit behavior, payment history, loan information, and delinquency status.
+**Source:** Tata iQ – GenAI Powered Data Analytics Job Simulation (Forage)
+
+The dataset contains **501 customer records** with financial and behavioral information, including:
+
+- Customer ID
+- Age
+- Income
+- Credit Score
+- Credit Utilization
+- Missed Payments
+- Delinquent Account
+- Loan Balance
+- Debt-to-Income Ratio
+- Employment Status
+- Credit Tenure
+- Credit Card Usage
+- Monthly Payment History
+
+**Note:** The dataset is provided for educational purposes as part of the Tata iQ virtual job simulation.
 
 ---
 
-## Project Objectives
-
-- Explore customer financial data
-- Identify patterns related to delinquency
-- Perform data cleaning and preprocessing
-- Create derived features for analysis
-- Generate business insights to support risk assessment
-
----
-
-## Tools & Technologies
+## Technologies
 
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
+- OpenPyXL
 
 ---
 
-## Analysis Performed
+## Workflow
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Missing Value Analysis
-- Customer Behavior Analysis
-- Credit Risk Analysis
-- Feature Engineering (Risk Categories)
-- Data Visualization
+```mermaid
+graph LR
+A[Customer Dataset] --> B[Data Cleaning]
+B --> C[Missing Value Analysis]
+C --> D[Exploratory Data Analysis]
+D --> E[Feature Engineering]
+E --> F[Behavior & Risk Analysis]
+F --> G[Business Insights]
+```
+
+---
+
+## Sample Visualizations
+
+> Add your screenshots inside an **images/** folder and update the paths below.
+
+### Delinquency Distribution
+
+![Delinquency Distribution](images/delinquency_distribution.png)
+
+---
+
+### Credit Utilization Analysis
+
+![Credit Utilization](images/credit_utilization.png)
+
+---
+
+### Income vs Loan Balance
+
+![Income vs Loan Balance](images/income_vs_loan_balance.png)
+
+---
+
+### Missed Payments Analysis
+
+![Missed Payments](images/missed_payments.png)
 
 ---
 
 ## Key Insights
 
-- Customer delinquency is influenced by multiple financial factors rather than a single variable.
-- Missed payments and credit utilization show stronger relationships with delinquency than demographic features.
-- Significant overlap exists between delinquent and non-delinquent customers, indicating the need for predictive modeling rather than simple rule-based decisions.
+- Customer delinquency is influenced by multiple financial factors rather than a single feature.
+- High credit utilization and repeated missed payments are strong indicators of delinquency risk.
+- Customers with higher debt-to-income ratios generally exhibit greater repayment risk.
+- Missing values were identified and appropriately handled before performing the analysis.
+- Significant overlap exists between delinquent and non-delinquent customers, highlighting the need for predictive modeling rather than simple rule-based decisions.
 
 ---
 
+```
 ## Repository Structure
 
-```
-.
-├── analysis.py
-├── Delinquency_prediction_dataset.xlsx
-├── project_details_report.docx
-├── project_objective.docx
+```text
+Customer-Delinquency-Analysis/
+│
+├── images/
+├── Delinquency_analysis.py
+├── Customer_prediction_dataset.xlsx
+├── EDA_Report.pdf
 ├── requirements.txt
 └── README.md
+```
+    
 ```
 
 ---
 
 ## How to Run
 
-1. Clone this repository
+### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/yourusername/customer-delinquency-analysis.git
 ```
 
-2. Install the required dependencies
+### 2. Navigate to the project folder
+
+```bash
+cd customer-delinquency-analysis
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the analysis
+### 4. Run the analysis
 
 ```bash
-python analysis.py
+python customer_delinquency_analysis.py
 ```
 
 ---
 
-## Project Outcome
+## Future Improvements
 
-This project demonstrates practical skills in data cleaning, exploratory data analysis, feature engineering, and deriving business insights from financial data. The findings provide a foundation for developing predictive models to identify customers at risk of delinquency.
+- Build a predictive machine learning model for delinquency prediction.
+- Compare Logistic Regression, Decision Tree, and Random Forest models.
+- Deploy an interactive dashboard using Streamlit.
+- Add model evaluation metrics and explainability techniques.
+- Expand the analysis using larger real-world financial datasets.
+
+---
+
+## Author
+
+B.Tech Computer Science Engineering
+
+Interested in Data Analytics, Machine Learning, and AI.
+
+---
+
+## Acknowledgements
+
+- **Tata iQ** for designing the GenAI Powered Data Analytics Job Simulation.
+- **Forage** for providing the virtual job simulation platform and learning experience.
