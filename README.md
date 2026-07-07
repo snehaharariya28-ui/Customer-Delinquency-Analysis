@@ -113,7 +113,6 @@ F --> G[Business Insights]
 
 ---
 
-```
 ## Repository Structure
 
 ```text
@@ -128,8 +127,6 @@ Customer-Delinquency-Analysis/
 ```
 
 ---
-
-```
 
 ## How to Run
 
