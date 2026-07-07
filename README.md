@@ -67,27 +67,39 @@ F --> G[Business Insights]
 
 > Add your screenshots inside an **images/** folder and update the paths below.
 
-### Delinquency Distribution
+### Credit Score vs Delinquency
 
-![Delinquency Distribution](images/delinquency_distribution.png)
-
----
-
-### Credit Utilization Analysis
-
-![Credit Utilization](images/credit_utilization.png)
+![Credit Score vs Delinquency](images/creditscore_vs_delinquency.png)
 
 ---
 
-### Income vs Loan Balance
+### Credit Utilization vs Delinquency
 
-![Income vs Loan Balance](images/income_vs_loan_balance.png)
+![Credit Utilization vs Delinquency](images/Creditutilization_vs_delinquency.png)
 
 ---
 
-### Missed Payments Analysis
+### Debt-to-Income Ratio vs Delinquency
 
-![Missed Payments](images/missed_payments.png)
+![Debt-to-Income Ratio vs Delinquency](images/debttoincome_vs_delinquency.png)
+
+---
+
+### Income Distribution by Delinquency Status
+
+![Income Distribution by Delinquency Status](images/income_vs_delinquency.png)
+
+---
+
+### Missed Payments vs Delinquency
+
+![Missed Payments vs Delinquency](images/Missedpayments_vs_delinquency.png)
+
+---
+
+### Customer Risk Category Distribution
+
+![Customer Risk Category Distribution](images/Risk_category.png)
 
 ---
 
@@ -118,6 +130,8 @@ Customer-Delinquency-Analysis/
 ```
 
 ---
+
+```
 
 ## How to Run
 
