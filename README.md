@@ -126,8 +126,6 @@ Customer-Delinquency-Analysis/
 ├── requirements.txt
 └── README.md
 ```
-    
-```
 
 ---
 
